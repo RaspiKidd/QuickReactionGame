@@ -1,0 +1,11 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="equalsblock" id="TUse_+{Vz5PoL(AQUU1X" x="23" y="112">
+    <field name="1">name</field>
+    <field name="2">input("What is your name?")</field>
+    <next>
+      <block type="varprint" id="ix~8*,P/Y2Zus]KJt+ts">
+        <field name="var">"Hello " + name</field>
+      </block>
+    </next>
+  </block>
+</xml>

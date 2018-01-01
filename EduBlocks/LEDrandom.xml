@@ -1,0 +1,37 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="time" id="`*mqY:xDdH1khZs[wi@q" x="179" y="5">
+    <next>
+      <block type="random" id="K;*=M`IA+vSQ[N~9.4g.">
+        <next>
+          <block type="importgpiozero" id=",N31ONMW(x4%Z4#9hmU4">
+            <next>
+              <block type="ledset" id="T/*P8:9m?u}l7r@8l8hI">
+                <field name="led">led</field>
+                <field name="pin">18</field>
+                <next>
+                  <block type="ledaction" id="%fDuI;TpHe^hI[PiIBwF">
+                    <field name="led">led</field>
+                    <field name="action">on</field>
+                    <field name="bracket"></field>
+                    <next>
+                      <block type="sleep" id="WczW/x/=6lG5E0Z^1k|,">
+                        <field name="sleepTime">random.uniform(5,10)</field>
+                        <next>
+                          <block type="ledaction" id="?(:T%da;Dlt=yWu{`@Zq">
+                            <field name="led">led</field>
+                            <field name="action">off</field>
+                            <field name="bracket"></field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
